@@ -44,7 +44,7 @@ This project is a Django backend REST API with React Native mobile integration, 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/oys2021/Expenze.git
+    git clone https://github.com/oys2021/ExpenseApi.git
     cd your-repository
     ```
 
@@ -72,14 +72,20 @@ This project is a Django backend REST API with React Native mobile integration, 
 
 ### Frontend Setup
 
-1. Install the dependencies:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/oys2021/Expenze.git
+    cd your-repository
+    
+2. Install the dependencies:
     ```bash
     npm install
     ```
 
 2. Run the app:
     ```bash
-    npm start
+    npx expo start
     ```
     The frontend app should now be running on your local machine.
 
